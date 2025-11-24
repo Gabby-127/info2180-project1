@@ -134,3 +134,48 @@ header nav a:hover {
     font-size: 16px;
 }
 
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 60px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.testing-desciption {
+    flex: 2;
+}
+
+.testing-desciption h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.testing-desciption p {
+    line-height: 1.6;
+}
+
+.testing .cta {
+    flex: 1;
+    text-align: right;
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.testing .btn:hover{
+    background-color: #38a169;
+}
